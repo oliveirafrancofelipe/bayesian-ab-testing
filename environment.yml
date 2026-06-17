@@ -1,0 +1,13 @@
+name: bayesian-ab
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=1.26
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - pandas>=2.0
+  - pymc>=5.10
+  - arviz>=0.17
+  - jupyterlab      # so the repo is openable, not just importable
+  - ipykernel
